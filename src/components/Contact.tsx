@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
           Get In{" "}
-          <span className="bg-gradient-accent bg-clip-text text-transparent">
+          <span className="bg-gradient-accent bg-clip-text ">
             Touch
           </span>
         </h2>

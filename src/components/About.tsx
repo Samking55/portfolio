@@ -4,7 +4,7 @@ const About = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
           About{" "}
-          <span className="bg-gradient-accent bg-clip-text text-transparent">
+          <span className="bg-gradient-accent bg-clip-text ">
             Me
           </span>
         </h2>

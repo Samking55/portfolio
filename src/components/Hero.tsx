@@ -17,23 +17,22 @@ const Hero = () => {
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
             Hi, I'm{" "}
-            <span className="bg-gradient-accent bg-clip-text text-transparent animate-glow-pulse">
+            <span className="text-5xl md:text-7xl font-bold tracking-tight">
               Luc Samuel
             </span>
           </h1>
-          <h2 className="text-2xl md:text-4xl text-muted-foreground font-light">
+          <h2 className="text-2xl md:text-4xl font-light">
             Full-Stack Web Developer
           </h2>
         </div>
 
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          I craft beautiful, performant web applications with modern technologies.
-          Specialized in PHP / Laravel, React, and React Native.
+        <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+          I craft beautiful, performant web applications with modern
+          technologies. Specialized in PHP / Laravel, React, and React Native.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
           <Button
-            variant="gradient"
             size="lg"
             onClick={() => scrollToSection("projects")}
             className="text-base"
@@ -41,7 +40,6 @@ const Hero = () => {
             View My Work
           </Button>
           <Button
-            variant="outline"
             size="lg"
             onClick={() => scrollToSection("contact")}
             className="text-base"
