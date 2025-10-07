@@ -4,34 +4,32 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics. Built with Next.js and Stripe.",
-    tags: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-    image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?w=800&h=500&fit=crop",
-    github: "#",
+    title: "Job Application automation app",
+    description:
+      "A full stack mobile APP that lets you add recrutors to your list then automate job application twice a day throughout the duration set by the user",
+    tags: ["React Native", "React JS", "CI net Pay", "MySQL", "PHP & Laravel"],
+    image:
+      "https://images.unsplash.com/photo-1661956602116-aa6865609028?w=800&h=500&fit=crop",
+    github: "https://github.com/Samking55/recrutio.git",
     live: "#",
   },
   {
-    title: "Task Management SaaS",
-    description: "Collaborative project management tool with real-time updates, team workspaces, and advanced filtering. Serves 10K+ active users.",
-    tags: ["React", "Supabase", "Tailwind", "Real-time"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "AI Content Generator",
-    description: "AI-powered content creation platform leveraging GPT-4 for generating blog posts, social media content, and marketing copy.",
-    tags: ["React", "OpenAI", "Node.js", "MongoDB"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
-    github: "#",
+    title: "Residence Finder Web App",
+    description:
+      "A residence finder app that lets you find residence in your area",
+    tags: ["React", "PHP & Laravel", "MySQL", "Tailwind", "Google Maps"],
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
+    github: "https://github.com/Samking55/welly-api.git",
     live: "#",
   },
   {
     title: "Fitness Tracking App",
-    description: "Mobile-first progressive web app for tracking workouts, nutrition, and fitness goals with social features and gamification.",
-    tags: ["PWA", "React Native", "Firebase", "Charts"],
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=500&fit=crop",
+    description:
+      "Mobile-first progressive web app for tracking workouts and fitness goals with social features, first made for learning deep core concept of React JS. Has been discontinued due to lack of financial ressource to maintain it available online.",
+    tags: ["PWA", "React Native", "PHP & Laravel", "MySQL"],
+    image:
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=500&fit=crop",
     github: "#",
     live: "#",
   },
@@ -42,7 +40,10 @@ const Projects = () => {
     <section id="projects" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
-          Featured <span className="bg-gradient-accent bg-clip-text text-transparent">Projects</span>
+          Featured{" "}
+          <span className="bg-gradient-accent bg-clip-text text-transparent">
+            Projects
+          </span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -65,7 +66,7 @@ const Projects = () => {
                 <h3 className="text-2xl font-bold group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
-                
+
                 <p className="text-muted-foreground leading-relaxed">
                   {project.description}
                 </p>
@@ -83,15 +84,13 @@ const Projects = () => {
 
                 <div className="flex gap-3 pt-2">
                   <Button variant="outline" size="sm" asChild>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Github className="mr-2 h-4 w-4" />
                       Code
-                    </a>
-                  </Button>
-                  <Button variant="default" size="sm" asChild>
-                    <a href={project.live} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Live Demo
                     </a>
                   </Button>
                 </div>

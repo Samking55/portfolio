@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
             Hi, I'm{" "}
             <span className="bg-gradient-accent bg-clip-text text-transparent animate-glow-pulse">
-              Alex Chen
+              Luc Samuel
             </span>
           </h1>
           <h2 className="text-2xl md:text-4xl text-muted-foreground font-light">
@@ -28,7 +28,7 @@ const Hero = () => {
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
           I craft beautiful, performant web applications with modern technologies.
-          Specialized in React, TypeScript, and cloud-native solutions.
+          Specialized in PHP / Laravel, React, and React Native.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

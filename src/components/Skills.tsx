@@ -5,27 +5,18 @@ const skills = [
   {
     icon: Code2,
     title: "Frontend Development",
-    technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+    technologies: ["React", "React Router", "Tailwind CSS"],
   },
   {
     icon: Database,
     title: "Backend & Databases",
-    technologies: ["Node.js", "PostgreSQL", "MongoDB", "Supabase"],
+    technologies: ["PHP", "MySQL", "Laravel"],
   },
-  {
-    icon: Cloud,
-    title: "Cloud & DevOps",
-    technologies: ["AWS", "Vercel", "Docker", "CI/CD"],
-  },
+  
   {
     icon: Smartphone,
     title: "Mobile Development",
     technologies: ["React Native", "Progressive Web Apps", "Responsive Design"],
-  },
-  {
-    icon: Palette,
-    title: "Design & UX",
-    technologies: ["Figma", "UI/UX Principles", "Accessibility", "Animation"],
   },
   {
     icon: Zap,
